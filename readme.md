@@ -246,7 +246,7 @@ namespace AOTDemo {
 
 一个令人兴奋的成果是，第三方开发者在调试插件时，调用堆栈仅显示他们的代码（`MyPlugin.dll`），不包含 `MyApp.exe` 或 `AOTDemo.dll` 的内部方法。这得益于插件架构的隔离设计，确保核心逻辑对第三方完全透明。
 
-![alt text](Debug.png)
+![alt text](PluginDebug.png)
 
 而且你可以看见，核心组件的字段和.net组件的调试信息仍然存在，没有降低开发体验；
 
