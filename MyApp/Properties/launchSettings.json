@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MyApp": {
+      "commandName": "Project",
+      "commandLineArgs": "myplugin.dll AOTDemo.MyPlugin"
+    }
+  }
+}

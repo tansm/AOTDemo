@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AOTDemo.Services\AOTDemo.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AOTDemo.Services">
+      <HintPath>..\lib\AOTDemo.Services.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

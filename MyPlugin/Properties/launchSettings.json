@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "MyApp.exe": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\kingdee\\source\\repos\\AOTDemo\\lib\\MyApp.exe",
+      "commandLineArgs": "myplugin.dll AOTDemo.MyPlugin"
+    }
+  }
+}
