@@ -16,7 +16,6 @@ namespace AOTDemo {
             Console.WriteLine(result);
 
             // 演示即使外部服务进行AOT编译，也可以使用反射
-            // 这个失败了， queryMethod 返回 null，调试发现除了Object自己的方法外其他的都没有了
             var queryMethod = service.GetType().GetMethod("query", BindingFlags.Public | BindingFlags.Instance);
             result = (String)queryMethod.Invoke(service, new object[] { "Hello2", args });
             Console.WriteLine(result);
